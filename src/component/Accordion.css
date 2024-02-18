@@ -1,0 +1,45 @@
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.accordion {
+  width: 450px;
+  margin: auto;
+}
+.accordion button {
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  /* border: none; */
+  border-radius: 10px;
+  background-color: rgb(106, 15, 15);
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+
+}
+
+.dataitem {
+  background-color: rgb(106, 15, 15);
+  border-radius: 10px;
+  margin: 10px auto;
+  padding: 10px;
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: start;
+  color: white;
+}
+.answer {
+  margin-top: 8px;
+  font-weight: 400;
+  text-align: start;
+  color: rgb(217, 212, 212);
+}
